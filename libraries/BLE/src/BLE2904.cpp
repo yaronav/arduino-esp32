@@ -26,7 +26,7 @@ BLE2904::BLE2904() : BLEDescriptor(BLEUUID((uint16_t)0x2904)) {
   setValue((uint8_t *)&m_data, sizeof(m_data));
 }  // BLE2902
 
-/**
+/** d
  * @brief Set the description.
  */
 void BLE2904::setDescription(uint16_t description) {
